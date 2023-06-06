@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+
+  backend_fastapi:
+    build: ./backend_fastapi
+    ports:
+      - 8000:8000
+
+  frontend_streamlit:
+    build: ./frontend_streamlit
+    ports:
+      - 8501:8501
+    depends_on:
+      - backend_fastapi
+
+  

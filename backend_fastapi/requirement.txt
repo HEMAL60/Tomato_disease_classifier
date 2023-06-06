@@ -1,0 +1,8 @@
+pandas
+pillow
+matplotlib
+numpy
+fastapi
+uvicorn
+python-multipart
+tensorflow==2.12.0
