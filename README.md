@@ -7,6 +7,16 @@ ports used by this container
 front end : streamlit ---> 8501
 backend : fastapi ---> 8000
 
+
+I have deployed my project on oracle cloud which is a Linux based server. I remotely connected to my server and pulled my project using git. 
+
+1. install docker
+2. run doker-compose up
+
+this will automatically build all required elements and deploy our project.
+
+you can use public ip given by oracle cloud and port given by stream lit, which is 8501
+
 you can check my deployed project at
 http://132.226.215.131:8501
 
